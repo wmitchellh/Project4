@@ -1,0 +1,140 @@
+header {
+  text-align: center;
+  color: #034C8C;
+  background-color: #F2F2F2;
+  height: 70px;
+  padding-top: 11px;
+  margin-bottom: 20px;
+  border-bottom-style: solid;
+  border-color: #BFBFBD;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+a {
+  color: #6394BF;
+}
+a:hover {
+  color: #034C8C;
+}
+
+h1 {
+  font-weight: bolder;
+  font-style: italic;
+  font-family: serif;
+}
+h3 {
+  color: #034C8C;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: serif;
+}
+h4 {
+  font-weight: normal;
+}
+
+.container{
+  background-color: #F2F2F2;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+#sources-area {
+  padding-left: 10%;
+  border-right-style: solid;
+  border-right-color: #BFBFBD;
+}
+
+#feed-area {
+  margin-top: 37px;
+}
+
+li{
+  list-style-type: none;
+}
+
+#mapheader{
+
+}
+
+#map {
+  width:1200px;
+  height:600px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  position: fixed;
+  z-index: 1;
+}
+
+
+button{
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background:#034C8C;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+button:hover{
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+#tweets {
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
+
+#twit {
+  border-style: solid;
+  border-color: #BFBFBD;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#twitImage {
+  margin: 5px;
+}
+.bioImage {
+  border-radius: 50%;
+}
+
+#vidContain {
+  border-right-style: solid;
+  border-color: #BFBFBD;
+  margin-right: 30px;
+}
+
+iframe {
+  margin-bottom: 20px;
+  width: 340px;
+  height: 190px;
+}
+
+footer {
+  text-align: center;
+  color: #034C8C;
+  background-color: #F2F2F2;
+  height: 30px;
+  margin-top: 20px;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
